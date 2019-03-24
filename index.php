@@ -113,7 +113,7 @@ mysqli_set_charset($conn,"utf8");
 </div>
 <br>
 
-<!--second from for saving "type" both in database and in fronted dropdown -->
+<!--second form for saving "type" both in database and in frontend select list -->
 
 <form action="" method="post">
     <div class=" form-group" align="">
@@ -209,7 +209,7 @@ VALUES ('" . $_POST["name"] . "','" . $_POST["type"] . "','".$time."')";
     }
 }
 
-// second form for adding "type" in  "type" database and in fronted dropdown
+// second form for adding "type" in  "type" database and in frontend select list
 
 if(isset($_POST["submit1"])) {
     if (isset($_POST["new"])) {
